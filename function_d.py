@@ -1,7 +1,15 @@
-def max_value(numbers):
+def min_value(numbers):
     """ This function returns the largest number
         in the list.
     """
+    min = number[0]
+
+    for num in numbers:
+        if num < min:
+            min = num
+
+    return min
+    
     pass
 
 
