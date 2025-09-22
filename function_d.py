@@ -1,8 +1,11 @@
-def max_value(numbers):
+def sum_value(numbers):
     """ This function returns the largest number
         in the list.
     """
-    pass
+    
+    num1 = 2
+    num2 = 3
+    sum = num1 + num2
 
 
 if __name__ == "__main__":
